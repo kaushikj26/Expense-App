@@ -1,0 +1,74 @@
+.heading {
+	/* margin: 1em 0 0.5em 0; */
+	color: #0c5cd5;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 8px;
+	line-height: 4px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+.registerPage {
+    margin-top: 3vh;
+    border: solid 2px black;
+    padding: 30px;
+  }
+  body {
+    background-color: #fffff0;
+    padding: 200px;
+  }
+
+.loginPage {
+    margin-top: 3vh;
+    border: solid 2px black;
+    padding: 30px;
+  }
+
+.budgetContainer {
+    border: 3px solid black;
+    padding: 30px;
+    width: 450px;
+    border-radius: 10px;
+  }
+
+/* .button:link, button:visited {
+  background-color: white;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(228, 16, 16);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+} */
+
+/* .button {
+  font: bold 30px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+} */
+
+.button {
+  /* display:inline; */
+  text-decoration:none;
+  color:yellow;
+  font-weight:bold;
+  min-width:132px;
+  min-height:37px;
+  border:1px solid black;
+  border-radius:12px;
+  text-align:center;
+  background-color:rgb(243, 234, 234);
+  box-shadow:2px 2px 2px gray;
+  margin:10px;
+}
+
+.button:hover, button:active {
+  background-color: rgb(24, 165, 241);
+  color: rgba(253, 247, 247, 0.986);
+}
